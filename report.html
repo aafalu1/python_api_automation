@@ -1067,8 +1067,8 @@ function download_embed(id, filename) {
   </head>
   <body onload="body_onload();">
     <div class="feature-title flex-gap">
-      <span>Feature: Resuing varables</span>
-      <span class="feature-started">Started: 28-10-2023 20:25:39</span>
+      <span>Feature: Showing of behave</span>
+      <span class="feature-started">Started: 29-10-2023 12:13:31</span>
       <span class="button flex-left-space" data-next-value="dark" data-value="auto" id="dark_mode_toggle" onclick="toggle_dark_mode()">Dark mode</span>
       <span class="button" id="high_contrast" onclick="toggle_hash('high_contrast')">High contrast toggle</span>
       <span class="button" id="summary" onclick="toggle_hash('summary')">Summary</span>
@@ -1079,9 +1079,9 @@ function download_embed(id, filename) {
         <div class="feature-summary-row failed">Failed: 0</div>
       </div>
       <div class="feature-summary-stats flex-left-space">
-        <div class="feature-summary-row">Started: 28-10-2023 20:25:39</div>
+        <div class="feature-summary-row">Started: 29-10-2023 12:13:31</div>
         <div class="feature-summary-row">Duration: 0.00</div>
-        <div class="feature-summary-row">Finished: 28-10-2023 20:25:39</div>
+        <div class="feature-summary-row">Finished: 29-10-2023 12:13:31</div>
       </div>
       <div class="feature-summary-stats">
         <span class="button display-block" onclick="expander('expand_all', this)">Expand All</span>
@@ -1098,10 +1098,10 @@ function download_embed(id, filename) {
     <div class="feature-container" id="f1">
       <div class="scenario-header passed " id="f1-s1-h">
         <div class="scenario-tags">
-          <span>@calculation</span>
+          <span>@behave_tutorial4</span>
         </div>
         <div class="scenario-info">
-          <div class="scenario-name" id="f1-s1" onclick="expand_this_only(this)">Scenario: reuse the variable</div>
+          <div class="scenario-name" id="f1-s1" onclick="expand_this_only(this)">Scenario: using the regular expression</div>
           <div class="scenario-duration">Scenario duration: 0.00s</div>
         </div>
       </div>
@@ -1119,51 +1119,31 @@ function download_embed(id, filename) {
         <div class="step-capsule passed margin-top">
           <div class="step-status">PASS</div>
           <div class="step-decorator">
+            <b><i>Given </i></b>
+            <span>I am in 'Login' page</span>
+          </div>
+          <div class="step-duration">(0.00s)</div>
+          <span class="flex-left-space">features/steps/tutorial.py:75</span>
+        </div>
+        <div class="embeds"></div>
+        <div class="step-capsule passed ">
+          <div class="step-status">PASS</div>
+          <div class="step-decorator">
             <b><i>When </i></b>
-            <span>the calculator application is opened</span>
+            <span>I click on home button</span>
           </div>
           <div class="step-duration">(0.00s)</div>
-          <span class="flex-left-space">features/steps/calculation.py:4</span>
-        </div>
-        <div class="embeds"></div>
-        <div class="step-capsule passed ">
-          <div class="step-status">PASS</div>
-          <div class="step-decorator">
-            <b><i>And </i></b>
-            <span>the user select first number as 2</span>
-          </div>
-          <div class="step-duration">(0.00s)</div>
-          <span class="flex-left-space">features/steps/calculation.py:9</span>
-        </div>
-        <div class="embeds"></div>
-        <div class="step-capsule passed ">
-          <div class="step-status">PASS</div>
-          <div class="step-decorator">
-            <b><i>And </i></b>
-            <span>the user select second number as 3</span>
-          </div>
-          <div class="step-duration">(0.00s)</div>
-          <span class="flex-left-space">features/steps/calculation.py:13</span>
-        </div>
-        <div class="embeds"></div>
-        <div class="step-capsule passed ">
-          <div class="step-status">PASS</div>
-          <div class="step-decorator">
-            <b><i>And </i></b>
-            <span>the user add the first number and second number</span>
-          </div>
-          <div class="step-duration">(0.00s)</div>
-          <span class="flex-left-space">features/steps/calculation.py:18</span>
+          <span class="flex-left-space">features/steps/tutorial.py:81</span>
         </div>
         <div class="embeds"></div>
         <div class="step-capsule passed ">
           <div class="step-status">PASS</div>
           <div class="step-decorator">
             <b><i>Then </i></b>
-            <span>the result is 5</span>
+            <span>I am on 'Home' page</span>
           </div>
           <div class="step-duration">(0.00s)</div>
-          <span class="flex-left-space">features/steps/calculation.py:22</span>
+          <span class="flex-left-space">features/steps/tutorial.py:75</span>
         </div>
         <div class="embeds"></div>
         <div class="step-capsule skipped margin-top">
