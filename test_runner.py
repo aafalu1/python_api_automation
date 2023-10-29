@@ -12,4 +12,4 @@ def run_behave_with_html_report(tag):
 
 
 # Example usage: Call the function to execute the behave command with the @smoketest tag
-run_behave_with_html_report("@calculator")
+run_behave_with_html_report("@behave_tutorial4")
