@@ -34,3 +34,10 @@ def before_all(context):
 
 def log_to_html_report(context, log_message=None):
     return context.embed("text", str(log_message), "Click For More Info")
+
+def after_scenario(context, scenario):
+    if "calculator" in scenario.tags:
+        print(f"it is true")
+    else:
+        print(f"it is false")
+    
